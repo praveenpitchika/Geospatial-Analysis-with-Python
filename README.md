@@ -1,6 +1,6 @@
 # Python Foundation for Spatial Analysis
 
-This repository contains two Jupyter Notebooks that serve as a foundational guide for performing geospatial analysis and data visualization using Python. The notebooks are designed for students, researchers, or professionals who want to apply programming skills to geospatial data.
+This repository contains two Jupyter Notebooks that serve as a foundational guide for performing geospatial analysis and data visualization using Python. The notebooks are designed for students or professionals who want to apply programming skills to geospatial data.
 
 ## 🚀 Getting Started
 
@@ -14,23 +14,11 @@ You should have Python 3.8 or a newer version installed on your system.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-    cd your-repository-name
+    git clone https://github.com/praveenpitchika/Geospatial-Analysis-with-Python/tree/main
+    cd Geospatial-Analysis-with-Python
     ```
-2.  **Create a virtual environment (recommended):**
-    ```bash
-    python -m venv venv
-    ```
-3.  **Activate the virtual environment:**
-    * On Windows:
-        ```bash
-        venv\Scripts\activate
-        ```
-    * On macOS and Linux:
-        ```bash
-        source venv/bin/activate
-        ```
-4.  **Install the required libraries:**
+    
+2.  **Install the required libraries:**
     The notebooks rely on several key libraries for geospatial data handling, manipulation, and visualization. You can install them all using `pip`.
     ```bash
     pip install jupyter numpy pandas geopandas matplotlib seaborn contextily rasterio
